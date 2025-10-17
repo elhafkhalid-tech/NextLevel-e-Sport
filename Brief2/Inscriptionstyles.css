@@ -1,0 +1,115 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: rgb(8, 8, 8);
+  color: #f4e4e4;
+  line-height: 1.6;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.logo{
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+} 
+.logo-text {
+  color: #fbd6d6;
+  margin-left: 10px;
+}
+
+ nav a{
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.logo-accent {
+  background-color: rgb(85, 85, 251);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.newsletter-card {
+  background-color: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 1.5rem;
+  /* margin: auto; */
+  padding: 3rem 0rem;
+   
+}
+
+.section-header {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform:uppercase;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input , textarea , select{
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgb(42, 53, 80);
+  background: rgba(28, 90, 225, 0.349);
+  color: rgb(239, 224, 255);
+}
+
+/* contact Section */
+
+label{
+  font-size: large;
+  font-weight: 200;
+}
+
+button{  
+  padding: 1rem;
+  background-color: rgba(252, 196, 123,50%);
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor:pointer;  
+  margin-bottom: 20px;
+}
+button:hover {
+  transform: translateX(5px);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+  transition: 0.3s;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.footer-copyright {
+  color: #767575;
+  font-size: 1rem;
+}
+

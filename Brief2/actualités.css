@@ -1,0 +1,79 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: rgb(8, 8, 8);
+  color: #f4e4e4;
+  line-height: 1.6;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.logo{
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+} 
+.logo-text {
+  color: #fbd6d6;
+  margin-left: 10px;
+}
+
+ nav a{
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.logo-accent {
+  background-color: rgb(85, 85, 251);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.newsletter-card {
+  background-color: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 1.5rem;
+  /* margin: auto; */
+  padding: 3rem 0rem;
+   
+}
+
+.section-header {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform:lowercase;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.footer-copyright {
+  color: #767575;
+  font-size: 1rem;
+}
+.actualite {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+}
+

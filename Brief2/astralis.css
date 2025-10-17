@@ -1,0 +1,202 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(42, 41, 41);
+      }
+      .header {
+        position:fixed;  
+        z-index: 1;
+        background: rgba(0, 0, 13, 0.8);
+        backdrop-filter:blur(10px);
+      }
+      .header-content {
+        height: 80px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;
+      }
+       .Logo {
+        font-size: 25px;
+        color: brown;
+        padding-left: 10px;
+      } 
+      .nav {
+        display: flex;
+        gap: 1.5rem;
+        margin-right: 30px;
+        font-size: 18px;
+      }
+      .nav a:hover {
+        color: rgb(2, 81, 55);
+        transition: 0.5s;
+      }
+      .nav a {
+        text-decoration: none;
+        color: white;
+      }
+      div span {
+        color: white;
+        background-color: brown;
+        margin: 5px;
+        padding: 5px;
+        font-family: sans-serif;
+        border-radius: 10px;
+      }
+      .hero {
+        color: white;
+        text-align: center;
+        font-size: 23px;
+        padding-top: 20px;
+      }
+      .imagesastralis {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .team-card {
+        transition: 0.4s;
+      }
+       .team-card:hover {
+        transform: translateY(20px);
+        box-shadow: 0px 5px 10px rgba(126, 171, 242, 0.2);
+        border-radius: 20px;
+        background-color: rgba(108, 233, 196, 0.067);
+      }
+      .LogoImage {
+        width: 6.5rem;
+        height: auto;
+      } 
+      .universe {
+        background-color: brown;
+        font-family: fantasy;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      
+      .imagesastralis img {
+        width: 45%;
+        height: auto;
+      }
+      .Teams {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+      }
+      .teamsimage {
+        width: 18vw;
+        height: auto;
+      }
+      .logoteams {
+        width: 20%;
+        height: auto;
+        display: block;
+        padding-top: 2px;
+      }
+      .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .article p {
+        margin-left: 90px;
+        margin-top: 2px;
+      }
+      .p-story {
+        color: white;
+        font-size: 15px;
+        margin: 0 10px;
+        line-height: 25px;
+      }
+      section {
+        padding-top: 43px;
+      }
+      strong {
+        font-size: 20px;
+      }
+      .footer {
+        height: 60px;
+        background: rgba(0, 0, 13, 0.8);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+        align-items: center;
+      }
+      div p {
+        color: white;
+        font-size: 15px;
+        margin-right: 90px;
+      }
+
+      .nav-contact {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        line-height: 55px;
+        margin-left: 10px;
+      }
+      .items {
+        display: flex;
+        align-items: center;
+      }
+      .contact {
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+      .insta {
+        margin-left: 10px;
+      }
+      .contact-us {
+        margin-bottom: 30px;
+
+      }
+      
+      .aside {
+        display: flex;
+        justify-content: space-between;
+
+      }
+
+      form{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       margin-right: 10px;
+      }
+
+input , textarea , select{
+  width: 50vw;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgb(42, 53, 80);
+  background: rgba(28, 90, 225, 0.349);
+  color: rgb(239, 224, 255);
+}
+
+/* contact Section */
+
+label{
+  font-size: large;
+  font-weight: 200;
+}
+
+button{  
+  padding: 1rem;
+  background-color: rgba(252, 196, 123,50%);
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor:pointer;  
+  margin-bottom: 20px;
+}
+button:hover {
+  transform: translateX(5px);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+  transition: 0.3s;
+}
+      

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(42, 41, 41);  
+        }
+        .header{
+            width: 100vw;
+            position:fixed;
+            z-index: 10;
+            background: rgba(0, 0, 13, 0.8);
+            backdrop-filter: blur(5px);
+        }
+         .header-content {
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            align-items: center;          
+         }
+         .nav {
+            display: flex;
+            gap: 1.5rem;
+            margin-right: 30px;
+            font-size: 18px;
+         }
+         .nav a:hover {
+            color:rgb(2, 81, 55);
+            font-size: large;
+            transition: 0.5s;
+         }
+         .nav-links {
+            text-decoration: none;
+            color: white;
+         }
+         .Logo {
+                font-size: 25px;
+                color: rgb(36, 67, 243);
+                padding-left: 10px;
+         }
+         em {
+            color: white;
+            background-color: rgb(16, 5, 55);
+            margin: 5px;
+            padding: 5px;
+            font-family: sans-serif;
+            border-radius: 10px;
+         }
+         .LogoImage {
+            width: 6.5rem;
+            height: auto;
+         }
+         .hero {
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            padding-top: 20px;
+         }
+         .universe {
+              font-family:fantasy;
+              border-radius: 10px;
+              padding: 10px;
+         }
+         .imagesastralis
+         {
+            display: flex;
+            justify-content: space-around;
+            
+         }
+          .imagesastralis img {
+              width: 45%;
+              height: auto;
+
+          }
+         .Teams {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+         }
+         .teamsimage
+         {
+            width: 18vw;
+            height: auto;
+            
+         }
+         .logoteams {
+            width: 20%;
+            height: auto;
+            display: block;
+            padding-top: 2px;
+         } 
+         .article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         .article p {
+            margin-left: 90px;
+            margin-top: 2px;
+         }
+         .p-story {
+            color: white;
+            font-size: 15px;
+            margin: 0 10px;
+            line-height: 25px;   
+         }
+         section {
+            padding-top: 43px;
+         }
+         strong {
+            font-size: 20px;
+         }
+         .footer{
+             height: 60px;
+             background: rgba(0, 0, 13, 0.8);
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             margin-top: 40px;
+             align-items: center;
+         }
+         div p {
+            color: white;
+            font-size: 15px;
+            margin-right: 90px;
+         }
+         
+        .nav-contact {
+             display: block;
+             text-decoration: none;
+             color: white;
+             font-size: 18px;
+             line-height: 55px;
+             margin-left:10px;
+        }
+        .items {
+         display: flex;
+         align-items: center;   
+        }
+       .contact {
+         margin-left: 10px;
+       }
+       .insta{
+         margin-left: 10px;
+       }
+       .contact-us {
+          margin-bottom: 30px;
+       }
+       .team-card:hover {
+           transform: translateY(20px);
+           box-shadow: 0 40px 40px rgba(126, 171, 242, 0.2);
+           border-radius: 20px;
+           background-color: rgba(2, 69, 49, 0.067);
+       }
+
+       .team-card{
+         transition: 0.4s;
+       }
+
+       form{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       margin-right: 10px;
+      }
+
+input , textarea , select{
+  width: 50vw;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgb(42, 53, 80);
+  background: rgba(28, 90, 225, 0.349);
+  color: rgb(239, 224, 255);
+}
+
+/* contact Section */
+
+label{
+  font-size: large;
+  font-weight: 200;
+}
+
+button{  
+  padding: 1rem;
+  background-color: rgba(252, 196, 123,50%);
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor:pointer;  
+  margin-bottom: 20px;
+}
+button:hover {
+  transform: translateX(5px);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+  transition: 0.3s;
+}
+   
+ .aside {
+        display: flex;
+        justify-content: space-between;
+
+      }
+    </style>
+</head>
+<body>
+    <!-- #header -->
+    <header class="header">
+        <div>
+            <div class="header-content">  
+                 <div>
+                   <span class="Logo">E-sport equipe <em>Evil Geniusis</em> </span>
+                 </div>  
+                   <!-- <img class="LogoImage" src="/public/astraliswebp.webp" alt="logo astralis" > -->
+                 <nav class="nav">
+                    <a href="#hero" class="nav-links">Acceuil</a>
+                    <a href="#Teams" class="nav-links">Teams</a>
+                    <a href="#about" class="nav-links">About</a>
+                    <a href="#Contact" class="nav-links">Contact</a>
+                    <a href="index.html" class="nav-links" target="_blank">NextLevel E-Sport</a>   
+                 </nav>       
+           </div>
+        </div>     
+     </header> 
+      <!-- #hero -->
+     <section id="hero">
+         <div class="hero">
+             <h1 >THE Evil Geniusis <span class="universe"> <em>UNIVERSE</em> </span></h1>
+         </div>
+         <div class="imagesastralis">
+              <img class="team-card" src="public/t1.jpg" alt="equipe man astralis" >
+              <img class="team-card" src="public/t2.jpg" alt="equipe women astralis">
+         </div>
+     </section>
+     <!-- #Teams -->
+      <section class="section" id="Teams">
+        <div>
+            <div class="hero">
+                <h2>Evil Geniusis <em>main</em> </h2>
+            </div>
+            <div class="Teams ">
+                <article class="team-card">  
+                    <div class="article">
+                         <img class="teamsimage" src="public/Alkaren.webp" alt="team1">
+                         <img class="logoteams" src="public/germany.png" alt="">
+                         <p> Alkaren <br> 21 years</p>
+                    </div> 
+                </article>
+                  
+                <article class="team-card">  
+                    <div class="article">
+                         <img class="teamsimage" src="public/Oliksender.webp" alt="team2">
+                         <img class="logoteams" src="public/germany.png" alt="">
+                         <p>Oliksender <br> 21 years</p>
+                    </div> 
+                </article>
+
+                <article class="team-card">  
+                    <div class="article">
+                         <img class="teamsimage" src="public/nicolaiEvil.webp" alt="team3">
+                         <img class="logoteams" src="public/germany.png" alt="">
+                         <p>nicolaiEvil <br> 21 years</p>
+                    </div> 
+                </article>
+
+                <article class="team-card">  
+                    <div class="article">
+                         <img class="teamsimage" src="public/Junhao Peng.webp" alt="team4">
+                         <img class="logoteams" src="public/germany.png" alt="">
+                         <p>Junhao Peng<br> 21 years</p>
+                    </div> 
+                </article>
+               
+            </div>
+        </div>
+      </section>
+      
+      <!-- #About -->
+       <section class="section" id="about">
+         <div class="about">   
+                <h2 class="hero">Our <em>Story</em> </h2> 
+             <p class="p-story">
+                 L'histoire <em>d'Evil Geniuses</em> dépend du contexte : il s'agit soit de l'équipe d'esport fondée en 1999, connue pour ses victoires dans des jeux comme Valorant et Dota 2, soit du jeu vidéo de stratégie Evil Genius, où le joueur incarne un génie du mal qui veut conquérir le monde.
+                 Le jeu Evil Genius se déroule dans une île volcanique où le joueur construit sa base, recrute des sbires et effectue des "actes d'infamie" pour gagner en notoriété et dominer <br> <br>
+                 Équipe d'esport Evil Geniuses.
+                 Fondation : Fondée en 1999, l'équipe est l'une des plus anciennes et des plus respectées dans le domaine de l'esport. <br><br> 
+                 Diversification : Initialement spécialisée dans Quake, elle s'est diversifiée pour inclure des jeux comme Counter-Strike,League of Legends et Valorant. <br>
+                 Victoires notables : L'équipe a remporté des titres majeurs, notamment le championnat du monde Valorant Champions en 2023, et a connu de nombreux autres succès. 
+                 Adaptabilité : L'histoire d'EG est marquée par sa capacité à s'adapter et à prospérer dans le paysage en constante évolution de l'esport. <br><br>
+                 Équipe d'esport Evil Geniuses
+                 Fondation : Fondée en 1999, l'équipe est l'une des plus anciennes et des plus respectées dans le domaine de l'esport. <br><br>
+                 Diversification : Initialement spécialisée dans Quake, elle s'est diversifiée pour inclure des jeux comme Counter-Strike, League of Legends et Valorant. <br><br>
+                 victoires notables : L'équipe a remporté des titres majeurs, notamment le championnat du monde Valorant Champions en 2023, et a connu de nombreux autres succès. 
+              </p>
+         </div>
+       </section>
+         <!-- #Contact -->
+             <section id="Contact">
+        <div class="hero">
+          <h2 class="contact-us">Contact <span> Us</span></h2>
+        </div>
+    <aside class="aside">
+      <div>
+        <nav class="contact">
+          <div class="items">
+            <img src="public/facebook_logo.png" alt="" />
+            <a href="" class="nav-contact">Facebook</a>
+          </div>
+          <div class="items insta">
+            <img src="public/Instagram_icon.png" alt="" />
+            <a href="" class="nav-contact">Insatgram</a>
+          </div>
+          <div class="items">
+            <img src="public/linkedin.png" alt="" />
+            <a href="" class="nav-contact">Linkdin</a>
+          </div>
+          <div class="items">
+            <img src="public/Tiktok.png" alt="" />
+            <a href="" class="nav-contact">Tiktok</a>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <form action="?" method="post">
+        <label for="fullname">Nom D'equipe</label>
+        <input type="text" name="fullname" id="fullname" placeholder="John Doe" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="exemple@exemple.com" required>
+        <label for="why">Level</label>
+        <select name="why" id="why">
+            <option value="Advertising">hard</option>
+            <option value="Support">Medium</option>
+            <option value="others">easy</option>
+        </select>
+        <label for="message">Description</label>
+        <textarea name="message" id="message" rows="10" cols="10" placeholder="Votre Message" required></textarea><br>
+        <button type="submit">Envoyer</button>
+      </form>
+     </div>
+    </aside>
+      
+    </section>
+
+      <section>
+           <!-- #footer -->
+      <footer>
+         <div>
+             <div class="footer"> 
+                 <p>© 2025 Astralis E-sport. Tous droits réservés.</p>
+                 <nav class="nav">
+                    <a href="#hero" class="nav-links">Acceuil</a>
+                    <a href="#Teams" class="nav-links">Teams</a>
+                    <a href="#about" class="nav-links">About</a>
+                    <a href="#Contact" class="nav-links">Contact</a>
+                 </nav>       
+           </div>
+        </div>     
+       </footer>
+     </section>
+</body>
+</html>
